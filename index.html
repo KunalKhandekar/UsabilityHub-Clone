@@ -13,6 +13,9 @@
 
     <!-- For Styling -->
     <link rel="stylesheet" href="style.css">
+
+    <!-- For Responsive -->
+    <link rel="stylesheet" href="responsive.css">
 </head>
 
 <body>
@@ -31,7 +34,7 @@
             <a href="#" class="company-logo">
                 <img src="Assets/asset 1.png" alt="company logo">
             </a>
-            <div class="nav-links">
+            <div class="nav-links" id="NavBar">
                 <ul class="flex">
                     <li><a href="#" class="hover-links">Products</a></li>
                     <li><a href="#" class="hover-links">Customers</a></li>
@@ -41,6 +44,7 @@
                     <li><a href="#" class="hover-links primary-button">Sign up</a></li>
                 </ul>
             </div>
+            <a href="#" class="hover-links hamburger" id="NavBtn"><i class="fa-solid fa-bars"></i></a>
         </div>
     </nav>
 
@@ -89,7 +93,7 @@
                 <div class="feature-card flex">
                     <img src="Assets/asset 11.svg" alt="">
                     <h3>Card sorting</h3>
-                    <p>Discover how people group and label information.</p>
+                    <p class="feature-desc">Discover how people group and label information.</p>
                     <a class="secondary-button" href="#">Learn More <i class="fa-solid fa-arrow-right"
                             style="color: #005eff;"></i></a>
                 </div>
@@ -97,7 +101,7 @@
                 <div class="feature-card flex">
                     <img src="Assets/asset 13.svg" alt="">
                     <h3>Prototype tests</h3>
-                    <p>Discover how people navigate your Figma prototypes.</p>
+                    <p class="feature-desc">Discover how people navigate your Figma prototypes.</p>
                     <a class="secondary-button" href="#">Learn More <i class="fa-solid fa-arrow-right"
                             style="color: #005eff;"></i></a>
                 </div>
@@ -105,7 +109,7 @@
                 <div class="feature-card flex">
                     <img src="Assets/asset 14.svg" alt="">
                     <h3>First click tests</h3>
-                    <p>Test interaction with first click and navigation tests.</p>
+                    <p class="feature-desc">Test interaction with first click and navigation tests.</p>
                     <a class="secondary-button" href="#">Learn More <i class="fa-solid fa-arrow-right"
                             style="color: #005eff;"></i></a>
                 </div>
@@ -113,7 +117,7 @@
                 <div class="feature-card flex">
                     <img src="Assets/asset 15.svg" alt="">
                     <h3>Design surveys</h3>
-                    <p>Get feedback on images, videos or audio files.</p>
+                    <p class="feature-desc">Get feedback on images, videos or audio files.</p>
                     <a class="secondary-button" href="#">Learn More <i class="fa-solid fa-arrow-right"
                             style="color: #005eff;"></i></a>
                 </div>
@@ -121,7 +125,7 @@
                 <div class="feature-card flex">
                     <img src="Assets/asset 16.svg" alt="">
                     <h3>Preference tests</h3>
-                    <p>Find out which designs users prefer and why.</p>
+                    <p class="feature-desc">Find out which designs users prefer and why.</p>
                     <a class="secondary-button" href="#">Learn More <i class="fa-solid fa-arrow-right"
                             style="color: #005eff;"></i></a>
                 </div>
@@ -129,7 +133,7 @@
                 <div class="feature-card flex">
                     <img src="Assets/asset 17.svg" alt="">
                     <h3>Five second tests</h3>
-                    <p>Test comprehensibility by measuring first impressions.</p>
+                    <p class="feature-desc">Test comprehensibility by measuring first impressions.</p>
                     <a class="secondary-button" href="#">Learn More <i class="fa-solid fa-arrow-right"
                             style="color: #005eff;"></i></a>
                 </div>
@@ -141,7 +145,7 @@
 
     <!-- Big Feature Section 1 -->
     <section class="big-feature-section">
-        <div class="container flex big-feature">
+        <div class="container flex big-feature bf-col">
             <div class="f-img">
                 <img src="Assets/asset 18.png" alt="Big-Feature-img">
             </div>
@@ -174,7 +178,7 @@
 
     <!-- Big Feature Section 2 -->
     <section class="big-feature-section">
-        <div class="container flex big-feature">
+        <div class="container flex big-feature bf-col-rev">
             <div class="written-cont flex">
                 <div class="big-desc">
                     <h4>Optimisation for</h4>
@@ -207,7 +211,7 @@
 
     <!-- Big Feature Section 3 -->
     <section class="big-feature-section">
-        <div class="container flex big-feature">
+        <div class="container flex big-feature bf-col">
             <div class="f-img">
                 <img src="Assets/asset 24.png" alt="Big-Feature-img">
             </div>
@@ -369,6 +373,15 @@
 
     <!-- For Symbol and Icons -->
     <script src="https://kit.fontawesome.com/dd262d5bd7.js" crossorigin="anonymous"></script>
+
+    <script>
+        const MenuButton = document.getElementById('NavBtn');
+        const Navbar = document.getElementById('NavBar');
+
+        MenuButton.addEventListener('click', () => {
+            Navbar.classList.toggle('active');
+        })
+    </script>
 </body>
 
 </html>
