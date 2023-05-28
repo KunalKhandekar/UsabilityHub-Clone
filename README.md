@@ -29,7 +29,9 @@ The clone website includes the following components:
 
 ## Preview
 
-<img width="960" alt="Screenshot 2023-05-27 082335" src="https://github.com/KunalKhandekar/UsabilityHub-Clone/assets/134169718/b1fc3287-fc0c-4707-972f-9ef396fe910b">
+<img width="960" alt="Screenshot 2023-05-28 063543" src="https://github.com/KunalKhandekar/UtilityHub-Clone/assets/134169718/3502789a-7381-4ae1-bdfa-8996482b25f5">
+<img width="248" alt="Screenshot 2023-05-28 063620" src="https://github.com/KunalKhandekar/UtilityHub-Clone/assets/134169718/6fd1602b-9b5a-46ac-8740-7c04942201fe">
+
 
 ## Features
 
