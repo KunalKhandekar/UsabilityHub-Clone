@@ -1,6 +1,6 @@
-# UtilityHub Clone
+# UsabilityHub Clone
 
-This is a clone of the UtilityHub website, created using HTML and CSS. It replicates the design and layout of the original UtilityHub website.
+This is a clone of the UsabilityHub website, created using HTML and CSS. It replicates the design and layout of the original UsabilityHub website.
 
 ## Table of Contents
 
@@ -29,24 +29,24 @@ The clone website includes the following components:
 
 ## Preview
 
-<img width="960" alt="Screenshot 2023-05-27 082335" src="https://github.com/KunalKhandekar/UtilityHub-Clone/assets/134169718/b1fc3287-fc0c-4707-972f-9ef396fe910b">
+<img width="960" alt="Screenshot 2023-05-27 082335" src="https://github.com/KunalKhandekar/UsabilityHub-Clone/assets/134169718/b1fc3287-fc0c-4707-972f-9ef396fe910b">
 
 ## Features
 
-- Replicates the design and layout of the original UtilityHub website
-- Responsive and mobile-friendly design. (Currently Working on this)
+- Replicates the design and layout of the original UsabilityHub website
+- Responsive and mobile-friendly design.
 - Uses modern CSS techniques and practices
 - Includes various sections commonly found on websites
 
 ## Usage
 
-To run the UtilityHub Clone, follow these steps:
+To run the UsabilityHub Clone, follow these steps:
 
-Go to - https://kunalkhandekar.github.io/UtilityHub-Clone/
+Go to - https://kunalkhandekar.github.io/UsabilityHub-Clone/
 
 OR
 
-1. Clone the repository: git clone https://github.com/KunalKhandekar/UtilityHub-Clone
+1. Clone the repository: git clone https://github.com/KunalKhandekar/UsabilityHub-Clone
 
 2. Navigate to the project directory:
 
