@@ -44,7 +44,7 @@ The clone website includes the following components:
 
 To run the UsabilityHub Clone, follow these steps:
 
-Go to - https://kunalkhandekar.github.io/UsabilityHub-Clone/
+Go to - https://usabilityhub-clone-by-kunal.netlify.app/
 
 OR
 
